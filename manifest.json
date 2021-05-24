@@ -1,0 +1,20 @@
+{
+	"name": "Instant Ad Skip for YouTube",
+	"description": "This is a simple extension that allows you to instantly skip YouTube ads. Not all ads may bother you, so you are free to watch ads useful to you and skip all irrelevant ads by clicking the extension.",
+	"icons": {
+		"128": "icon.png"
+	},
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": [
+		"tabs",
+		"scripting"
+	],
+	"host_permissions": [
+		"https://www.youtube.com/"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {}
+}
